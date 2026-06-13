@@ -1,24 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #121214;
-}
-
-div {
-    background-color: #1A1A1E;
-}
-
-p, li {
     color: #E4E4E7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-h1, h2 {
+.recipe-card {
+    background-color: #1A1A1E;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 20px;
+    border: 1px solid #27272A;
+}
+
+h1 {
     color: #FFFFFF;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #1A1A1E;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #FBBF24;
+    font-size: 1.5rem;
+    margin-top: 40px;
 }
 
 a {
     color: #FBBF24;
     text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dashed #FBBF24;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #D97706;
+    border-bottom-style: solid;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+img:hover {
+    opacity: 1.0;
 }
