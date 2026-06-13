@@ -1,3 +1,24 @@
 body {
     background-color: #121214;
 }
+
+div {
+    background-color: #1A1A1E;
+}
+
+p, li {
+    color: #E4E4E7;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FBBF24;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
