@@ -9,3 +9,4 @@ By completing this project, I am practicing:
 - Creating a remote repository
 - Linking repo to github
 - Using HTML
+- Using CSS
